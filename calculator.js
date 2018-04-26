@@ -45,15 +45,6 @@ ops[3].addEventListener('click',()=>{
   arr.push(displayvalue)
  total_num += parseFloat(arr[0]) / parseFloat(arr[1]) 
 })
-<<<<<<< HEAD
-// 초기화
-ops[0].addEventListener('click',()=>{
-  newnum = '0';
-  display.innerHTML = newnum;
-})
-// 토탈
-total.addEventListener('click',() =>{
-=======
 
 // 초기화
 ops[0].addEventListener('click',()=>{
@@ -66,14 +57,9 @@ ops[0].addEventListener('click',()=>{
 // 토탈
 total.addEventListener('click',() =>{
 
->>>>>>> c5b29a139c8d00cec92ac1d29b4bed78358432dc
   display.innerHTML = total_num;
 })
 
 // 문제점
 // 1. 계산결과가 바로안나오고 사칙연산 버튼을 2번씩 넣어줘야 값이나온다.
-<<<<<<< HEAD
 // 2. AC를 눌렀을때 저장된 값이 초기화가 안된다. 디스플레이만 초기화됨.
-=======
-// 2. AC를 눌렀을때 저장된 값이 초기화가 안된다. 디스플레이만 초기화됨.
->>>>>>> c5b29a139c8d00cec92ac1d29b4bed78358432dc
