@@ -31,12 +31,13 @@ button {
 
 .display {
   margin: 0;
-  padding: 20px;
+  /* overflow: hidden; */
+  padding:0 20px;
   background: #f8f9fa;
   font-size: 4em;
   grid-area: display;
   line-height: 1.6;
-  direction: rtl;
+  /* text-align: right; */
 }
 
 .op {
@@ -129,4 +130,9 @@ button {
 
 .op-eql {
   grid-area: op-eql;
+}
+button:hover,
+button:focus{
+  cursor: pointer;
+  border:1px solid #333;
 }
