@@ -30,9 +30,6 @@ button {
   background: #e9ecef;
   cursor: pointer;
 }
-.button:hover{
-  background-color: yellow;
-}
 
 .display {
   margin: 0;
@@ -42,11 +39,7 @@ button {
   font-size: 4em;
   grid-area: display;
   line-height: 1.6;
-<<<<<<< HEAD
   /* text-align: right; */
-=======
-  overflow: hidden;
->>>>>>> c5b29a139c8d00cec92ac1d29b4bed78358432dc
 }
 
 .op {
