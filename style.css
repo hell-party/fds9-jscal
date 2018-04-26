@@ -21,12 +21,17 @@ body {
     'num-1 num-2 num-3 op-plus'
     'num-0 num-0 num-dot op-eql';
   box-shadow: 1px 1px 4px #343a40;
+  
 }
 
 button {
   border-width: 0;
   font-size: 2em;
   background: #e9ecef;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: yellow;
 }
 
 .display {
@@ -37,7 +42,11 @@ button {
   font-size: 4em;
   grid-area: display;
   line-height: 1.6;
+<<<<<<< HEAD
   /* text-align: right; */
+=======
+  overflow: hidden;
+>>>>>>> c5b29a139c8d00cec92ac1d29b4bed78358432dc
 }
 
 .op {
